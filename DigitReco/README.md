@@ -1,5 +1,4 @@
-Digit Recongizer Dataset - Performance Comparison of Hyperparameter
-Optimization Techniques
+# Digit Recongizer Dataset - Performance Comparison of Hyperparameter Optimization Techniques
 
 The following notebook considers various hyperparameter optimization techniques 
 including our custom Plumber Optimizer on the Digit Recognizer dataset for the 
