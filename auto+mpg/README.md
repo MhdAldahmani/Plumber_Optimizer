@@ -1,0 +1,4 @@
+# Auto-MPG Dataset - Regression Task with Hyperparameter Optimization
+
+
+Our Notebook evaluates the performance of various hyperparameter optimization techniques, including the custom **Plumber Optimizer**, on the **Auto-MPG Dataset** for predicting fuel efficiency (`mpg`). The dataset contains numerical and categorical features like `cylinders`, `horsepower`, and `origin`. A baseline Random Forest Regressor is first trained to establish a benchmark mean squared error (MSE). The Plumber Optimizer, along with traditional techniques such as Grid Search, Random Search, and Bayesian Optimization, is used to tune hyperparameters like `n_estimators`, `max_depth`, and `max_features`. Metrics such as execution time, CPU usage, memory consumption, and validation MSE are collected for comparison. Results show that the Plumber Optimizer achieves competitive MSE scores while being more efficient in resource usage and execution time. 
