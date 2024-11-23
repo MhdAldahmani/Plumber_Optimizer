@@ -1,0 +1,4 @@
+# Titanic Dataset - Binary Classification with Hyperparameter Optimization
+
+
+This notebook evaluates the performance of hyperparameter optimization techniques, using our customised **Plumber Optimizer**, on the Titanic Dataset for predicting survival (`Survived`) based on passenger features. The Plumber Optimizer, along with traditional methods like Grid Search, Random Search, and Bayesian Optimization (BayesSearchCV), is used to tune hyperparameters such as `n_estimators`, `max_depth`, and `max_features`. Metrics like accuracy, execution time, CPU usage, and memory consumption are recorded for comparison. Results show that the Plumber Optimizer achieves competitive accuracy (mean: 0.827) with significantly reduced execution time (mean: 19.00 seconds) compared to Grid Search (112.49 seconds) and Bayesian Optimization (39.47 seconds). Its efficient resource usage makes it ideal for small datasets like Titanic. 
